@@ -1,0 +1,32 @@
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength\headheight{28pt}
+\fancyhead[L]{\includegraphics[width=0.75cm]{merlion.png}}
+\usepackage{bbm}
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\usepackage{imakeidx}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{most}
+\makeindex
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\topfraction}{0.8}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\floatpagefraction}{0.75}
+
+\tcbset{before=\par\smallskip\centering,after=\par,width=8cm,colback=red!5!white, colframe=red!75!black,center title}
+\newtcolorbox{mybox}[2][]
+  {width=\linewidth, beamer, colback = red!5!white, colframe = red!75!black, fonttitle = \bfseries,
+    colbacktitle = red!85!black, enhanced,
+    attach boxed title to top center={yshift=-2mm},
+    title=#2,#1}
+
+

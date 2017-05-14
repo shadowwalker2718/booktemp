@@ -1,0 +1,18 @@
+--- 
+title: "Book Name"
+author: "Henry Moo"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Book description"
+---
+
+# Preface
+
+![](img/o_cartman_gandalf.png)
+
+<center>__Welcome to My World!__</center>
+

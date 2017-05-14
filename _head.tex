@@ -1,0 +1,23 @@
+%\begin{tcbraster}[enhanced,colback=red!5!white,colframe=red!75!black,fonttitle=\bfseries,fontlower=\itshape,arc=3mm]
+%\tcbset{width=8cm, colback=red!5!white, colframe=red!75!black,center title}
+
+\newtcbtheorem{question}{Question~(Q}%
+  {width=\linewidth, enhanced, breakable,
+    colback = white, colframe = cyan, colbacktitle = cyan,
+    attach boxed title to top left = {yshift = -2mm, xshift = 4mm},
+    boxed title style = {sharp corners},
+    fonttitle = \sffamily\bfseries, separator sign = {).~}}{qst}
+
+\newtcbtheorem{remark}{Remark~(R}%
+  {width=\linewidth, enhanced, breakable,
+    colback = white, colframe = magenta, colbacktitle = magenta,
+    attach boxed title to top left = {yshift = -2mm, xshift = 4mm},
+    boxed title style = {sharp corners},
+    fonttitle = \sffamily\bfseries, separator sign = {).~}}{qst}
+    
+\newtcbtheorem{warning}{warning~(W}%
+  {width=\linewidth, enhanced, breakable,
+    colback = white, colframe = red, colbacktitle = red,
+    attach boxed title to top left = {yshift = -2mm, xshift = 4mm},
+    boxed title style = {sharp corners},
+    fonttitle = \sffamily\bfseries, separator sign = {).~}}{qst}
